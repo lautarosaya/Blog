@@ -1,20 +1,2 @@
-.logo{
-    border-radius: 3px;
-}
 
-.barra-item{
-    margin-left: 1.5em;
-}
 
-.titulo{
-    border-bottom: 1px black solid;
-}
-
-.tarjeta{
-    margin: 10px;
-}
-
-.barra-item:hover{
-    transition: 0.5s;
-    transform: scale(1.1);
-}
