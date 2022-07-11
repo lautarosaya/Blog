@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="author" content="Lautaro Sayavedra" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="container-fluid bg-dark">
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="../multimedia/logogato.jpg" alt="" width="35" height="35" class="d-inline-block align-text-top rounded">
+                El Lauti
+              </a>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+      <div class="container container-fluid">
+        <!-- Carrusel -->
+        <div id="carouselExampleCaptions" class="carousel slide bg-dark carousel-dark" data-bs-ride="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="#scrollspyHeading1"><img src="../multimedia/clase.jpg" class="d-block w-100 img-carrousel" alt="Estudios"></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Mis Estudios</h5>
+              <p>Relato de mi experiencia con los estudios o mi carrera actual.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="#scrollspyHeading2"><img src="../multimedia/hobbies.png" class="d-block w-100 img-carrousel" alt="Hobbi"></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Mis hobbies</h5>
+              <p>Que cosas me apacionan hacer.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="#scrollspyHeading3"><img src="../multimedia/about me.jpg" class="d-block w-100 img-carrousel" alt="aboutme" a></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Are you talking to me?</h5>
+              <p>Te digo quien soy y porque estoy acá.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </div>
+      <!-- Aca arranca los textos mi rey -->
+      <div class="container container-fluid">
+        <div class="row">
+          <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 py-5">
+            <h1 id="scrollspyHeading1" class="shadow-lg p-3 mb-5 bg-body rounded animation">Mis Estudios</h1>
+            <p>Me gradué de una escuela técnica en informática y actualmente estoy estudiando ingeniería en Sistemas, no tengo una “carrera” muy amplia debido a mi corta edad, pero pienso seguir sumando estudios como el curso que  estoy cursando actualmente, este es de Desarrollo Web.
+            La verdad me gusta demasiado porque es un área en la que nunca me encontré involucrado, pero las ganas de aprender pudieron más. Fuera de eso tengo conocimientos en C#, C , C++ y Python, los primeros 3 aprendidos en la facultad y Python visto de manera autodidacta. AH, y también diseñamos un juego para un final de programación, adjunto el link por si les interesa.
+            </p>
+          </div>
+          
+          <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <div class="card m-5 align-items-center animation" style="width: 17rem;">
+              <a href="https://narrativaslab.itch.io/once-a-thief-always-a-thief/purchase" class="shadow-lg p-1 mb-5 bg-body rounded" target="_blank"><img src="../multimedia/juego.png" class="card-img-top" alt="Juego"></a>
+              <div class="card-body">
+                <p class="card-text">Once a Thief, Always a Thief.
+                  Juego realizado para final de programacion.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="container container-fluid">
+      <div class="row">
+        <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 py-5">
+          <h1 id="scrollspyHeading2" class="shadow-lg p-3 mb-5 bg-body rounded animation">Mis Hobbies</h1>
+          <p>Tengo muchos hobbies, me gustan mucho los deportes aunque ya no tenga tanto tiempo para dedicarme a ellos, la programación me gusta mucho también (si me salen bien las cosas), juntarme con amigos me sirve mucho para desconectarme cuando estoy estresado.
+          Pero lo que me encanta es ir a pescar, nunca pesco nada porque no tengo ni idea de pescar, pero me encanta estar ahí tomando mates tranquilo en un lugar que no hay nadie que moleste.
+          </p>
+        </div>
+
+        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+          <div class="card m-5 align-items-center animation" style="width: 17rem;">
+            <a href="https://www.youtube.com/shorts/FwtjcbkbyCY" class="shadow-lg p-1 mb-5 bg-body rounded" target="_blank"><img src="../multimedia/kpro.jpg" class="card-img-top" alt="Juego"></a>
+            <div class="card-body">
+              <p class="card-text">Ejemplo grafico de como soy pescando</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container container-fluid">
+      <div class="row">
+        <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8 py-5">
+          <h1 id="scrollspyHeading3" class="shadow-lg p-3 mb-5 bg-body rounded animation">Sobre Mi</h1>
+          <p>La verdad no tengo mucho que contar, soy un chico simple. Pero algo les tengo que contar, empecé a interesarme en el mundo de la tecnología desde chico, tratando de ver como funcionaban las cosas (Ej: Una tele… no termino bien) y esto empezó a crecer cuando entre al secundario en el que nos daban lo básico de desarrollo web, un día empezamos a aprender algo de C para hacer un autito en Arduino, eso me gusto bastante y fui investigando más y más. Llego el punto que terminaba el secundario y tenia que elegir mi carrera, estaba seguro de que iba a estudiar Psicología, pero una semana antes de que abran las inscripciones me anote en Ing. en Sist ni idea porque, pero bueno acá ando con ganas de aprender.</p>
+        </div>
+
+        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <div class="card m-5 align-items-center animation" style="width: 17rem;">
+              <a href="https://www.instagram.com/lauti_saya/" class="shadow-lg p-1 mb-5 bg-body rounded" target="_blank"><img src="../multimedia/ig.jpg" class="card-img-top" alt="Juego"></a>
+              <div class="card-body">
+                <p class="card-text">Mi red social</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </main>
+
+    <footer class="bg-dark">
+      <div class="container container-fluid text-center bg-dark">
+        <p class="color">&copy; Lautaro Sayavedra :: 2022</p>
+      </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

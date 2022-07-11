@@ -1,2 +1,17 @@
+.img-carrousel{
+    height: 500px;
+}
 
+h1{
+    text-transform: uppercase;
+}
+
+.color{
+    color: #ffff;
+}
+
+.animation:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+}
 
